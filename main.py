@@ -19,7 +19,7 @@ class CurrentState(Enum):
 countryCode = 1
 mobile = "1270010002"
 password = "ToposBot5678"
-MIN_PLAYERS = 4
+MIN_PLAYERS = 6
 current_state = CurrentState.NOT_STARTED
 playing_games: dict[str, Game] = {}
 timer = None
