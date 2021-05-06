@@ -1,0 +1,3 @@
+#countryCode = ACCOUNT_COUNTRY_CODE
+#mobile = ACCOUNT_PHONE_NUMBER
+#password = ACCOUNT_PASSWORD
