@@ -5,6 +5,7 @@ from sdk.messaging import Context, connect, set_request_handler
 from game import Game, TEXT_INTRO_PART_A, TEXT_INTRO_PART_B, Identity
 import random
 from enum import Enum
+from config import countryCode, mobile, password
 import traceback
 
 ''' 枚举定义 '''
@@ -16,9 +17,6 @@ class CurrentState(Enum):
 
 
 ''' 全局变量和常量 '''
-countryCode = 1
-mobile = "1270010002"
-password = "ToposBot5678"
 MIN_PLAYERS = 6
 current_state = CurrentState.NOT_STARTED
 playing_games: dict[str, Game] = {}
